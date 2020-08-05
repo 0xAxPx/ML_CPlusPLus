@@ -152,7 +152,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BaseAlgo.cpp" />
     <ClCompile Include="LinearRegression.cpp" />
+    <ClCompile Include="LogisticRegression.cpp" />
+    <ClCompile Include="Runner.cpp" />
+    <ClCompile Include="Utils.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseAlgo.h" />
+    <ClInclude Include="LinearRegression.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

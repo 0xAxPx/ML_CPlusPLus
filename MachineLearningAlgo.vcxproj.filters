@@ -13,10 +13,36 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\util">
+      <UniqueIdentifier>{157c699c-ca4f-4f5a-b97c-5600a1405f69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\algos">
+      <UniqueIdentifier>{7cda235e-2429-4026-bf05-af592623918d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="LogisticRegression.cpp">
+      <Filter>Source Files\algos</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseAlgo.cpp">
+      <Filter>Source Files\algos</Filter>
+    </ClCompile>
     <ClCompile Include="LinearRegression.cpp">
+      <Filter>Source Files\algos</Filter>
+    </ClCompile>
+    <ClCompile Include="Runner.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseAlgo.h">
+      <Filter>Source Files\algos</Filter>
+    </ClInclude>
+    <ClInclude Include="LinearRegression.h">
+      <Filter>Source Files\algos</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
