@@ -36,7 +36,7 @@ LinearRegression::RegressionEquationParams LinearRegression::fit() {
 	return RegressionEquationParams::RegressionEquationParams(b0, b1);
 };
 
-double LinearRegression::predict(LinearRegression::RegressionEquationParams& params, int test) {
+double LinearRegression::predict(LinearRegression::RegressionEquationParams& params, double test) {
 	return params.getB0() + params.getB1() * test;
 };
 
@@ -46,9 +46,9 @@ LinearRegression::RegressionEquationParams::RegressionEquationParams(double b0, 
 }
 
 double LinearRegression::RegressionEquationParams::getB0() {
-	return b0;
+	return this->b0;
 }
 
 double LinearRegression::RegressionEquationParams::getB1() {
-	return b1;
+	return this->b1;
 }
