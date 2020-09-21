@@ -44,8 +44,5 @@
     <ClInclude Include="LinearRegression.h">
       <Filter>Source Files\algos</Filter>
     </ClInclude>
-    <ClInclude Include="LogisticRegression.h">
-      <Filter>Source Files\algos</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>

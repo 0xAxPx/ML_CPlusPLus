@@ -1,9 +1,11 @@
 #ifndef LINEARREGRESSION_H
 #define LINEARREGRESSION_H
+#endif
 
 #include "BaseAlgo.h"
 
-class LinearRegression : public BaseAlgo {
+class LinearRegression : public BaseAlgo 
+{
 private:
 
 	//Definetely 10 elements size array is not enough to learn model, it is just example
@@ -31,8 +33,8 @@ private:
 
 public:
 	LinearRegression();
-	LinearRegression::RegressionEquationParams fit();
-	double predict(LinearRegression::RegressionEquationParams& params, double test);
-};
 
-#endif
+	LinearRegression::RegressionEquationParams fit();
+
+	double predict(LinearRegression::RegressionEquationParams& params, int test);
+};
